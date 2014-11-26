@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- 	Ryan Bannon 14488478
+		Paris Moore 14485758 -->
+<html>
+	<head>
+		<title>Hooligans Bar</title>
+		<link rel="stylesheet" style="text/css" href="style.css"/>
+		
+		
+			<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	<!--Delete embedded styles, just for example.-->
+	<style type="text/css">	
+		.container p 
+		{
+		color: #fff;
+		line-height: 100px;
+		background: #000;
+		text-align: center;
+		margin: 20px 0 0 0;
+		}
+		</style>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+	<body>
+	<div id="wrapper">
+		<div id="top">
+			<text id="h1"><center><h1><b><br />Hooligans Bar</h1></center></text>
+			<center><a href="index.html">Home</a> | <a href="about.html">About</a> | 
+			<a href="gallery.html">Gallery</a> | <a href="contact.html">Contact</a>
+			<div id="image">
+			<img src="hooligans.jpg" style="width:200px;height:125px"></img>
+			</div>
+		</div>
+
+		<div id="main">
+		<br />
+		<!--<div class="container">
+			<div class="row">
+				<div class="fourcol">
+				<p>Four columns</p>
+				</div>
+				<div class="fourcol">
+				<p>Four columns</p>
+				</div>
+				<div class="fourcol last">
+				<p>Four columns</p>
+				</div>
+			</div>
+		</div>-->
+		<div id="slider">
+		
+		</div>
+		<div id="click">
+		<br /><text style="color:white"><center><b>???</text>
+		</div>
+		<script>
+		$("#click").click(function(){
+			$( "#slider" ).slideToggle(2800);
+			$("slider").animate({width: 'toggle'});
+		});  
+		</script>	
+			
+		</div>
+		<table>
+			<tr>
+			<td></td>
+			</tr>
+			<tr>
+			<td id="td"></td>
+			<td></td>
+			</tr>
+		</table>
+		</div>
+		
+	
+	</div>
+	
+	
+	
+	
+	</div>
+	</body>
+</html>

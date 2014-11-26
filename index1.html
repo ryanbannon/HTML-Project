@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About us</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+	</head>
+	<body>
+ 
+<!-- 
+ #left
+{
+background:#008B00;
+position:relative;
+top:125px;
+width:115px;
+height:100%;
+padding:10px;
+z-index:100;
+} -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 		<!--<table>
+			<tr>
+			<img src="image1.jpg" style="width:202px;height:150px"></img>
+			</tr>
+			<tr>
+			<img src="image2.jpg" style="width:202px;height:150px"></img>
+			</tr>
+			<tr>
+			<img src="image3.jpg" style="width:203px;height:150px"></img>
+			</tr>
+			<tr>
+			<img src="image4.jpg" style="width:203px;height:150px"></img>
+			</tr>
+			<tr>
+			<img src="image5.jpg" style="width:202px;height:150px"></img>
+			</tr>
+			<tr>
+			<img src="image6.jpg" style="width:202px;height:150px"></img>
+			</tr>
+		</table>-->
+ 
+ 
+ 
+ <!--</div>
+  <div data-role="page">
+
+  <div data-role="main" class="ui-content">
+    <p>Here at ??? we promote the use of our new app.</p>
+	
+	
+	<div id="slider">
+  <a href="image1.jpg" class="control_next">>></a>
+  <a href="image2.jpg" class="control_prev"><<</a>
+  <ul>
+    <li></li>
+    <li style="background: #aaa;"></li>
+  </ul>  
+</div>
+
+<div class="slider_option">
+  <input type="checkbox" id="checkbox">
+  <label for="checkbox">Autoplay Slider</label>
+</div> 
+
+<script>
+var x = document.getElementById("mySearch");
+var x = document.createElement("INPUT");
+x.setAttribute("type", "search");
+</script>
+
+<script>
+jQuery(document).ready(function ($) {
+
+  $('#checkbox').change(function(){
+    setInterval(function () {
+        moveRight();
+    }, 3000);
+  });
+  
+	var slideCount = $('#slider ul li').length;
+	var slideWidth = $('#slider ul li').width();
+	var slideHeight = $('#slider ul li').height();
+	var sliderUlWidth = slideCount * slideWidth;
+	
+	$('#slider').css({ width: slideWidth, height: slideHeight });
+	
+	$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+	
+    $('#slider ul li:last-child').prependTo('#slider ul');
+
+    function moveLeft() {
+        $('#slider ul').animate({
+            left: + slideWidth
+        }, 200, function () {
+            $('#slider ul li:last-child').prependTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    function moveRight() {
+        $('#slider ul').animate({
+            left: - slideWidth
+        }, 200, function () {
+            $('#slider ul li:first-child').appendTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next').click(function () {
+        moveRight();
+    });
+
+});-->
+	</body>
+<!--
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
+
+html {
+  border-top: 5px solid #fff;
+  background: #58DDAF;
+  color: #2a2a2a;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: relative;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+-->
+</html>
